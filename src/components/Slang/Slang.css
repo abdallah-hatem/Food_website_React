@@ -1,0 +1,53 @@
+/* .slang {
+   background-image: url("https://img.freepik.com/free-photo/top-view-fish-chips-with-peas-plate-copy-space_23-2148784926.jpg?size=626&ext=jpg&ga=GA1.2.1791332429.1647479796");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 70vh;
+   margin: 90px 0;
+} */
+
+.slang img {
+   width: 100%;
+   height: 70vh;
+   margin: 90px 0;
+}
+.slang {
+   position: relative;
+}
+
+.slang-details {
+   position: absolute;
+   width: 40%;
+   top: 20%;
+   margin-left: 50px;
+}
+.slang-details h1 {
+   color: rgb(134, 0, 45);
+}
+.slang-details p {
+   color: black;
+   font-weight: 400;
+}
+
+.slang button {
+   background-color: transparent;
+   height: 40px;
+   border: 1px solid black;
+   font-size: 20px;
+   background-color: rgb(134, 0, 45);
+   color: white;
+   cursor: pointer;
+   /* border-radius: 5px; */
+   margin-top: 30px;
+   transition: 0.2s ease-in-out;
+}
+.slang button:active {
+   transform: scale(0.9);
+}
+.slang button:hover {
+   /* border: 3px solid black; */
+   border: 3px solid rgb(192, 35, 87);
+   color: rgb(192, 35, 87);
+   background-color: white;
+   font-size: 21px;
+}

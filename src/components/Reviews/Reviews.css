@@ -1,0 +1,121 @@
+.reviews-container {
+   background-color: rgb(116, 2, 40);
+   color: white;
+   height: 80vh;
+   text-align: center;
+   position: relative;
+   width: 80%;
+   margin: 0 auto;
+   border-radius: 10px;
+   margin-bottom: 120px;
+}
+
+.reviews-container h1 {
+   padding-top: 30px;
+   font-size: 40px;
+   width: 15%;
+   margin: 0 auto;
+   border-bottom: 3px solid white;
+}
+
+.reviews {
+   width: 70%;
+   height: 50%;
+   margin: 0 auto;
+   align-items: center;
+   text-align: center;
+   background-color: white;
+   color: black;
+   margin-top: 100px;
+   display: flex;
+   flex-direction: column;
+   border-radius: 10px;
+}
+
+.reviews img {
+   height: 70px;
+   width: 70px;
+   border-radius: 50%;
+   margin-top: 20px;
+}
+
+.reviews #comment {
+   width: 70%;
+   font-size: 23px;
+   color: gray;
+   font-weight: 600;
+}
+
+.reviews #title {
+   color: rgb(151, 0, 50);
+   font-weight: 600;
+   font-size: 18px;
+}
+
+/**************************  Slider  *******************************/
+
+.reviews #left-arrow {
+   position: absolute;
+   left: 1%;
+   top: 50%;
+
+   background-color: transparent;
+   border: none;
+   font-size: 50px;
+   cursor: pointer;
+   color: white;
+   transition: 0.2s ease-in-out;
+}
+.reviews #right-arrow {
+   position: absolute;
+   right: 1%;
+   top: 50%;
+
+   background-color: transparent;
+   border: none;
+   font-size: 50px;
+   cursor: pointer;
+   color: white;
+   transition: 0.2s ease-in-out;
+}
+
+.reviews #right-arrow:hover {
+   background-color: rgba(128, 128, 128, 0.527);
+}
+.reviews #left-arrow:hover {
+   background-color: rgba(128, 128, 128, 0.527);
+}
+
+.dots {
+   display: flex;
+   position: absolute;
+   bottom: 9%;
+   right: 46%;
+}
+
+.dots #dot {
+   background-color: white;
+   opacity: 0.3;
+   font-size: 50px;
+   margin-right: 10px;
+   border-radius: 50%;
+   border: none;
+   height: 20px;
+   width: 20px;
+   color: transparent;
+   cursor: pointer;
+   transition: 0.2s ease-in-out;
+}
+.dots #current {
+   background-color: white;
+   /* opacity: 0.8; */
+   font-size: 50px;
+   margin-right: 10px;
+   border-radius: 50%;
+   border: none;
+   height: 20px;
+   width: 20px;
+   color: transparent;
+   cursor: pointer;
+   transition: 0.2s ease-in-out;
+}

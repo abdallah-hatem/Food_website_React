@@ -1,0 +1,53 @@
+.container {
+   display: flex;
+   margin: 0 auto;
+   justify-content: space-between;
+   width: 80%;
+   margin-top: 100px;
+   margin-bottom: 80px;
+}
+
+.images {
+   display: flex;
+   flex-wrap: wrap;
+   width: 50%;
+   gap: 1rem;
+}
+.images img {
+   width: 50%;
+   height: 200px;
+}
+
+.images #f {
+   height: 100px;
+   width: 200px;
+   align-self: flex-end;
+}
+
+.images #s {
+   width: 60%;
+}
+
+.images #th {
+   height: 60.5%;
+   width: 60%;
+}
+.images #fo {
+   width: 36%;
+   height: 45%;
+}
+
+.details #desc {
+   min-width: 450px;
+}
+
+.details i{
+    color: rgb(192, 35, 87);
+    margin-right: 8px;
+    font-size: 20px;
+}
+.details #last{
+    margin-bottom: 50px;
+}
+
+
