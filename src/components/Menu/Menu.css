@@ -35,17 +35,18 @@
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.item #price{
-    font-size: 25px;
-    font-weight: 600;
-    color: rgb(168, 10, 63);
+
+.item #price {
+   font-size: 25px;
+   font-weight: 600;
+   color: rgb(168, 10, 63);
 }
 
-.item #desc{
-    color: gray;
-    font-weight: 500;
-    margin-top: -10px;
-    font-size: 14px;
+.item #desc {
+   color: gray;
+   font-weight: 500;
+   margin-top: -10px;
+   font-size: 14px;
 }
 
 .item button {
@@ -71,21 +72,20 @@
    font-size: 17px;
 }
 
-.menu{
-    margin-bottom: 100px;
+.menu {
+   margin-bottom: 100px;
 }
 
-
-.items-details{
-    margin-left: 15px;
+.items-details {
+   margin-left: 15px;
 }
 
-.pricing-cont{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;   
+.pricing-cont {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
 }
 
-.pricing-cont p{
-    margin-right: 50px;
+.pricing-cont p {
+   margin-right: 50px;
 }
